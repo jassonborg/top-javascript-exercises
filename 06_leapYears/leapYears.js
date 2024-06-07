@@ -1,6 +1,6 @@
 const leapYears = (year) => {
     //divisible by x and no remainder
-    return ((year % 4 === 0) && (year % 100 !== 0)) || (year % 400 === 0);
+    return (year % 4 === 0) && (year % 100 !== 0) || (year % 400 === 0);
 };
 
 // Do not edit below this line
