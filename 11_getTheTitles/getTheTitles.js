@@ -1,4 +1,22 @@
-const getTheTitles = function() {
+const books = [
+    {
+      title: 'Book',
+      author: 'Name'
+    },
+    {
+      title: 'Book2',
+      author: 'Name2'
+    }
+  ]
+
+
+const getTheTitles = () => {
+
+    const myArray = books.map((book) => {
+        return book.title;
+    });
+
+      return myArray;
 
 };
 
